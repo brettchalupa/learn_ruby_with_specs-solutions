@@ -182,13 +182,21 @@ That'll pull in the latest changes, which will be new lessons and any adjustment
 
 ## Misc
 
-### Notes on RSpec Style
+### Feedback
+
+I'd love to know what you think! Please let me know in Discussions (TODO: enable discussions) or [on Twitter](https://twitter.com/brett_codes).
+
+### Contributing
+
+If you have ideas for new lessons or how to make an existing one better, please open up a Pull Request on GitHub with your proposed changes. Thank you!
+
+### RSpec Style
 
 There are some potentially contentious decisions for style when it comes to the RSpec found in this project. They are generally made with intention though.
 
 #### `subject` and `described_class`
 
-In order to make the code easier to change and refactor, RSpec's `subject` to easily call out to the object under test is used, typically an instantiated `described_class` instead of repeating the class throughout. I've found that DRYing up the instance under tests initialization makes it less likely to mess it up or use the wrong class when you only do it once. Plus it's easier to change then.
+In order to make the code easier to change and refactor, I sometimes use RSpec's `subject` to easily call out to the object under test, typically an instantiated `described_class` instead of repeating the class throughout. I've found that DRYing up the instance under tests initialization makes it less likely to mess it up or use the wrong class when you only do it once. Plus it's easier to change then.
 
 #### Multiple expectations even in unit tests
 
