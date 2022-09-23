@@ -1,2 +1,0 @@
-class TaxCalc
-end

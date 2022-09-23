@@ -2,7 +2,7 @@ require "bigdecimal"
 require_relative "tax_calc"
 require_relative "order"
 
-RSpec.describe TaxCalc do
+RSpec.describe "TaxCalc" do
   subject { described_class.new(order, tax_rate) }
   let(:order) { Order.new(line_item_amount: 12.68) }
   let(:tax_rate) { BigDecimal.new(0.07) }

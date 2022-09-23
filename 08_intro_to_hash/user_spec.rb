@@ -1,7 +1,7 @@
 require_relative "user"
 
 RSpec.describe "Lesson 08 - Intro to Hash" do
-  describe User do
+  describe "User" do
     describe "#to_hash" do
       it "returns the attributes of the User as a hash" do
         user = User.new("coop@fbi.gov", "Dale", "Cooper")

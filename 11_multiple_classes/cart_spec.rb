@@ -2,7 +2,7 @@ require_relative "cart"
 require_relative "item"
 
 RSpec.describe "Lesson 11 - Multiple Classes" do
-  describe Cart do
+  describe "Cart" do
     describe "#total" do
       it "adds the passed in item to the items array" do
         cart = Cart.new

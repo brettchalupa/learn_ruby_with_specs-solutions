@@ -1,4 +1,4 @@
-# Learn Ruby with Specs 💎
+# Learn Ruby with Specs 💎♻️✅
 
 An interactive, test-driven course to learn the basics of Ruby with RSpec.
 
@@ -22,7 +22,7 @@ If you are absolutely brand new to programming, I would not start with LRWS beca
 
 So some prerequisites this assumes:
 
-- A little bit of time spent coding before, [The Ruby Quickstart](https://www.ruby-lang.org/en/documentation/quickstart/) i helpful here
+- A little bit of time spent coding before, [The Ruby Quickstart](https://www.ruby-lang.org/en/documentation/quickstart/) is helpful here
 - Comfort with running commands via the Terminal, Shell, or Command Prompt
 - An understanding of the difference between code and tests/specs. Programmers write tests (a.k.a. specs), which is code that tests what other code does. This help ensure everything is working correctly.
 

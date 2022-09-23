@@ -1,7 +1,7 @@
 require_relative "user"
 
 RSpec.describe "Lesson 07 - Our First Class Instance" do
-  describe User do
+  describe "User" do
     describe "#full_name" do
       it "returns the full name of the user" do
         user = User.new("coop@fbi.gov", "Dale", "Cooper")
