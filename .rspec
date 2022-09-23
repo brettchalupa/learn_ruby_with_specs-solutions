@@ -1,0 +1,4 @@
+--color
+--warnings
+--default-path=.
+--require ./spec_helper
