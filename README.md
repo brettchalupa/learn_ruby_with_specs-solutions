@@ -10,6 +10,12 @@ That's what _Learn Ruby with Specs (LRWS)_ is all about. Teaching you the basics
 
 By searching line and learning, you'll better internalize what you're learning. The specs will also ensure correctness—that the code you're writing does what you intend it to. Through this process too, you'll gain familiarity with the way specs are written.
 
+## Notes on Readiness
+
+**Work in Progress** -- use at your own risk! I can't guarantee the ordering and lessons will work and won't change. I'm still working on getting this together.
+
+Lessons prefixed with `xx_` means they haven't found their way into the lesson plan yet. They're draft lessons that will eventually be assigned a number in the sequence.
+
 ### Prerequisites
 
 If you are absolutely brand new to programming, I would not start with LRWS because it requires a few things: using the command line, understanding specs/tests, and what to search for online. The specs are guiding and helpful, but they are, at the end of the day, just code. Learning how to code from scratch by reading the specs could be a bit challenging, even though RSpec, the library used in this course, reads a lot like the English language.
@@ -190,13 +196,18 @@ I'd love to know what you think! Please let me know in Discussions (TODO: enable
 
 If you have ideas for new lessons or how to make an existing one better, please open up a Pull Request on GitHub with your proposed changes. Thank you!
 
+A few notes on contributing:
+
+- Because the sequence of the lessons is intentional, we'll have to collaborate on where to place a lesson.
+- Running `bin/spec` on a repo without solutions should output all of the failures for every spec. This means that all referenced constants must be present.
+
 ### RSpec Style
 
 There are some potentially contentious decisions for style when it comes to the RSpec found in this project. They are generally made with intention though.
 
 #### `subject` and `described_class`
 
-In order to make the code easier to change and refactor, I sometimes use RSpec's `subject` to easily call out to the object under test, typically an instantiated `described_class` instead of repeating the class throughout. I've found that DRYing up the instance under tests initialization makes it less likely to mess it up or use the wrong class when you only do it once. Plus it's easier to change then.
+In order to make the code easier to change and refactor, the code sometimes uses RSpec's `subject` to easily call out to the object under test, typically an instantiated `described_class` instead of repeating the class throughout. I've found that DRYing up the instance under tests initialization makes it less likely to mess it up or use the wrong class when you only do it once. Plus it's easier to change then.
 
 #### Multiple expectations even in unit tests
 
