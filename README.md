@@ -105,7 +105,7 @@ hello_world.rb
 ```
 
 - `hello_world_spec.rb` contains the test code that I've written, which you won't have to change at all.
-- `hello_world.rb` is the blank Ruby file in which you'll write the code to complete the lesson
+- `hello_world.rb` is the blank Ruby file in which you'll write the code to complete the lesson; your code is always written separate from your specs in Ruby, so good to start now.
 
 ## Run the Specs for a Given Exercise
 
