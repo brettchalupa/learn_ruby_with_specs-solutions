@@ -49,7 +49,48 @@ bin/rspec
 
 That will run all of the tests in all of the lesson folders. They'll all fail because you haven't written any code yet. You'll have completed this course when all of the specs pass.
 
-Seeing a bunch of failing tests isn't very helpful, so here's how to use this proejct and progress through the lessons.
+When a test fails, RSpec outputs a detailed explaination of what failed and why:
+
+```
+learn_ruby_with_specs(main+*) $ bin/rspec --next-failure
+Run options: include {:last_run_status=>"failed"}
+F
+
+Failures:
+
+  1) #hello_world prints a greeting to stdout
+     Failure/Error:
+       expect { hello_world }
+         .to output { "Hello, world!" }.to_stdout
+
+       expected block to output to stdout, but did not
+     # ./01_hello_world/hello_world_spec.rb:19:in `block (2 levels) in <top (required)>'
+
+Finished in 0.01161 seconds (files took 0.04234 seconds to load)
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./01_hello_world/hello_world_spec.rb:18 # #hello_world prints a greeting to stdout
+```
+
+When a test passes, it outputs they were run successfully
+
+```
+learn_ruby_with_specs(main+*) $ bin/rspec 01_hello_world/
+
+Randomized with seed 41099
+
+#hello_world
+  prints a greeting to stdout
+
+Finished in 0.00126 seconds (files took 0.04161 seconds to load)
+1 example, 0 failures
+
+Randomized with seed 41099
+```
+
+Seeing a bunch of failing tests isn't very helpful, so here's how to use this project and progress through the lessons.
 
 ## Course Structure
 
@@ -85,6 +126,15 @@ bin/rspec --next-failure
 ## Process
 
 Progress through each lesson by making the tests pass. You'll write Ruby code in the empty Ruby files, run the tests, and then make adjustments if the tests still fail.
+
+Steps:
+
+1. Run the specs for the lesson you're working on
+2. Don't change those specs though!
+3. Write code in the non-spec Ruby files
+4. Run the tests to see if they pass
+5. If they pass, move on to the next lesson
+6. If they fail, there's still work to do
 
 Once an entire directory's specs pass, that lesson is is complete. ✅
 
