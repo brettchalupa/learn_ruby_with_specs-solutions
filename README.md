@@ -1,6 +1,25 @@
-# Learn Ruby with Specs 💎♻️✅
+# Learn Ruby with Specs (LRWS) 💎♻️✅
+
+```
+          _  .-')    (`\ .-') /` .-')
+         ( \( -O )    `.( OO ),'( OO ).
+ ,--.     ,------. ,--./  .--. (_)---\_)
+ |  |.-') |   /`. '|      |  | /    _ |
+ |  | OO )|  /  | ||  |   |  |,\  :` `.
+ |  |`-' ||  |_.' ||  |.'.|  |_)'..`''.)
+(|  '---.'|  .  '.'|         | .-._)   \
+ |      | |  |\  \ |   ,'.   | \       /
+ `------' `--' '--''--'   '--'  `-----'
+```
+
+[logo made with patorjk.com's TAAG](http://patorjk.com/software/taag/)
 
 An interactive, test-driven course to learn the basics of Ruby with RSpec.
+
+Project links:
+
+- [Website](https://lrws.code.brettchalupa.com)
+- [Source on GitHub](https://github.com/brettchalupa/learn_ruby_with_specs)
 
 ## Introduction
 
@@ -170,8 +189,9 @@ Will run the specs for the first lesson.
 
 ## Resources
 
-- Chat room/community
-- Ruby fundamentals
+- [LRWS Discussion Board](https://github.com/brettchalupa/learn_ruby_with_specs/discussions)
+- [The Ruby Quickstart](https://www.ruby-lang.org/en/documentation/quickstart/)
+- [Learn Ruby the Hard Way](https://learnrubythehardway.org)
 - [My screencasts](https://www.youtube.com/c/Monoso/featured) — I make programming screencasts, specifically about Ruby and RSpec. Playlists that might be of interest:
   - [Test Driven RSpec](https://www.youtube.com/playlist?list=PLr442xinba86s9cCWxoIH_xq5UE9Wwo4Z) — series on RSpec
   - [The Fundamentals of Ruby](https://www.youtube.com/playlist?list=PLr442xinba85DO691UMttOgaWVKVEkIZx) — general Ruby programming topics
@@ -196,7 +216,7 @@ That'll pull in the latest changes, which will be new lessons and any adjustment
 
 ### Feedback
 
-I'd love to know what you think! Please let me know in Discussions (TODO: enable discussions) or [on Twitter](https://twitter.com/brett_codes).
+I'd love to know what you think! Please let me know in [Discussions](https://github.com/brettchalupa/learn_ruby_with_specs/discussions) or [on Twitter](https://twitter.com/brett_codes).
 
 ### Contributing
 
