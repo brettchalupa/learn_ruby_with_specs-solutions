@@ -1,3 +1,9 @@
+# Learn Ruby with Specs (LRWS) Solutions 🌞❇️
+
+This repository contains the solutions for [Learn Ruby with Specs](https://lrws.code.brettchalupa.com). View the Ruby code for solutions if you need help or get stuck. What follows below is the original README.
+
+---
+
 # Learn Ruby with Specs (LRWS) 💎♻️✅
 
 ```
