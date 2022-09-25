@@ -8,7 +8,7 @@ RSpec.describe "Lesson 04x1 - Raising Errors with Invalid Args" do
     end
 
     it "supports floats" do
-      expect(double_num(12.5)).to eql(25)
+      expect(double_num(12.5)).to eql(25.0)
       expect(double_num(243.33)).to eql(486.66)
     end
 

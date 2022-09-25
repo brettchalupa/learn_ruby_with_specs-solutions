@@ -168,6 +168,7 @@ RSpec has a convenient way of only running the next failing spec so you can prog
 bin/rspec --next-failure
 ```
 
+When you fix the next failing test and run the command again, it'll keep running until it finds the new next failing spec.
 ## Process
 
 Progress through each lesson by making the tests pass. You'll write Ruby code in the empty Ruby files, run the tests, and then make adjustments if the tests still fail.
