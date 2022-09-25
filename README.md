@@ -29,7 +29,7 @@ That's what _Learn Ruby with Specs (LRWS)_ is all about. Teaching you the basics
 
 By searching line and learning, you'll better internalize what you're learning. The specs will also ensure correctness—that the code you're writing does what you intend it to. Through this process too, you'll gain familiarity with the way specs are written.
 
-## Notes on Readiness
+### Notes on Readiness
 
 **Work in Progress** -- use at your own risk! I can't guarantee the ordering and lessons will work and won't change. I'm still working on getting this together.
 
@@ -56,6 +56,12 @@ Ruby's natural syntax is quite intuitive. It's a mature, multi-purpose language 
 Ruby has its own baked-in testing library, as most languages do. It's called `Test::Unit`. It certainly works and does the trick. But every single place and codebase I've worked in has used RSpec. I'm not sure if that's anecdotal, but it's what I'm most familiar with, and it allows for a level of verbosity with describing the code's behavior that I think will be particularly helpful for someone learning RSpec.
 
 ## Get Started
+
+### GitHub Codespaces (Simple)
+
+If you have access to [GitHub Codespaces](https://github.com/features/codespaces), you can get the project set up and running right in your browser, with Ruby and RSpec installed and ready to go. You can even open Visual Studio Code on your Desktop and work from there.
+
+### Developing Locally (Complex)
 
 0. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/), I use and prefer [RVM](https://rvm.io)
 1. [Use this repo as a template for youself](https://github.com/brettchalupa/learn_ruby_with_specs/generate), as you'll need your own repo to add your code to
