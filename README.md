@@ -24,7 +24,7 @@ So some prerequisites this assumes:
 
 - A little bit of time spent coding before, [The Ruby Quickstart](https://www.ruby-lang.org/en/documentation/quickstart/) is helpful here
 - Comfort with running commands via the Terminal, Shell, or Command Prompt
-- An understanding of the difference between code and tests/specs. Programmers write tests (a.k.a. specs), which is code that tests what other code does. This help ensure everything is working correctly.
+- An understanding of the difference between code and tests/specs. Programmers write tests (a.k.a. specs), which is code that tests what other code does. This helps ensure everything is working correctly.
 
 ### Why Ruby
 
@@ -113,6 +113,8 @@ hello_world.rb
 - `hello_world_spec.rb` contains the test code that I've written, which you won't have to change at all.
 - `hello_world.rb` is the blank Ruby file in which you'll write the code to complete the lesson; your code is always written separate from your specs in Ruby, so good to start now.
 
+A lesson with an `x` in the number, like `04x1_strict_double` is a bonus lesson that immediately follows up that lesson. This keeps an order to lessons while allowing others to be slotted inbetween where appropriate.
+
 ## Run the Specs for a Given Exercise
 
 You can run the specs for a given lesson by targeting the folder, example:
@@ -161,6 +163,7 @@ Will run the specs for the first lesson.
 - 🥽 Read the specs, then re-read them if you are stuck
 - 🔎 Read the errors and stacktrace, this is an important skill; the errors are often quite helpful
 - 💻 Search online; this mirrors the actual process of coding where you get stuck and need to learn more
+- ⌨️ Use the interactive Ruby REPL to experiment with Ruby; start it with: `irb`
 
 ## Resources
 
@@ -204,10 +207,6 @@ A few notes on contributing:
 ### RSpec Style
 
 There are some potentially contentious decisions for style when it comes to the RSpec found in this project. They are generally made with intention though.
-
-#### `subject` and `described_class`
-
-In order to make the code easier to change and refactor, the code sometimes uses RSpec's `subject` to easily call out to the object under test, typically an instantiated `described_class` instead of repeating the class throughout. I've found that DRYing up the instance under tests initialization makes it less likely to mess it up or use the wrong class when you only do it once. Plus it's easier to change then.
 
 #### Multiple expectations even in unit tests
 

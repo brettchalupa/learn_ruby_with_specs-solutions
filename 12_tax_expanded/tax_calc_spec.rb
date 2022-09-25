@@ -7,7 +7,9 @@ RSpec.describe "TaxCalc" do
   let(:order) { Order.new(line_item_amount: 12.68) }
   let(:tax_rate) { BigDecimal.new(0.07) }
 
-  # NOTE: because Ruby is dynamically typed, I find it helpful to be particular defensive about what data makes it into a class instance or a given method
+  # NOTE: because Ruby is dynamically typed, it can be helpful to be
+  # particularly defensive about what data makes it into a class instance or a
+  # given method
   describe "initializer checks" do
     it "requires both the order and tax_rate params be present" do
       expect { described_class.new }.to raise_error(ArgumentError)
