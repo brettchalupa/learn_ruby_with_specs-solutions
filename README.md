@@ -57,10 +57,6 @@ Ruby has its own baked-in testing library, as most languages do. It's called `Te
 
 ## Get Started
 
-### GitHub Codespaces (Simple)
-
-If you have access to [GitHub Codespaces](https://github.com/features/codespaces), you can get the project set up and running right in your browser, with Ruby and RSpec installed and ready to go. You can even open Visual Studio Code on your Desktop and work from there.
-
 ### Developing Locally (Complex)
 
 0. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/), I use and prefer [RVM](https://rvm.io)
@@ -68,7 +64,14 @@ If you have access to [GitHub Codespaces](https://github.com/features/codespaces
 2. Clone your new repo
 3. Install the needed dependencies with with bundler: `bundle install`
 
-Alternatively, if you aren't using Git, you can [download an archive of the project](https://github.com/brettchalupa/learn_ruby_with_specs/archive/refs/heads/main.zip) and work from that.
+Alternatively, if you don't want to use Git, you can [download an archive of the project](https://github.com/brettchalupa/learn_ruby_with_specs/archive/refs/heads/main.zip) and work from that.
+
+### GitHub Codespaces (Simple, Limited Access)
+
+If you have access to [GitHub Codespaces](https://github.com/features/codespaces), you can get the project set up and running right in your browser, with Ruby and RSpec installed and ready to go. You can even open Visual Studio Code on your Desktop and work from there.
+
+1. [Use this repo as a template for youself](https://github.com/brettchalupa/learn_ruby_with_specs/generate), as you'll need your own repo to add your code to
+2. From your newly created GitHub repository, click "Code", select "Codespaces", and click "Create codespace on main"
 
 ## Run the Specs
 
