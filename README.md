@@ -113,7 +113,10 @@ hello_world.rb
 - `hello_world_spec.rb` contains the test code that I've written, which you won't have to change at all.
 - `hello_world.rb` is the blank Ruby file in which you'll write the code to complete the lesson; your code is always written separate from your specs in Ruby, so good to start now.
 
-A lesson with an `x` in the number, like `04x1_strict_double` is a bonus lesson that immediately follows up that lesson. This keeps an order to lessons while allowing others to be slotted inbetween where appropriate.
+A lesson with an `x` after the lsson number, like `04x1_strict_double` is a bonus lesson that immediately follows up that lesson. This keeps an order to lessons while allowing others to be slotted inbetween where appropriate.
+
+A lesson that starts with `xx` means it hasn't yet been placed in the lesson sequence. You're welcome to complete it, but it'll get renamed and moved eventually.
+
 
 ## Run the Specs for a Given Exercise
 
